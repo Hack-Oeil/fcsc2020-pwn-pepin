@@ -1,10 +1,16 @@
 version: '3.9'
 services:
-  webssh.cyrhades.com:
-    build: webssh
+  webssh.cyrhades.fr:
+    build: ./.docker/webssh
     ports:
-    - "80:8888"
-  pepin.cyrhades.com:
+      - ${PORT}:8888
+    environment:
+      - HOOS_CTF_USERNAME=${HOOS_CTF_USERNAME:-}
+    labels:
+      ho.ctf.cyrhades: "1"
+  pepin.cyrhades.fr:
     image: anssi/fcsc2020-pwn-pepin:latest
     ports:
       - "22:22"
+    labels:
+      ho.ctf.cyrhades: "1"
