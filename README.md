@@ -3,7 +3,7 @@
 Vous avez accès à une machine qui semble avoir un noyau Linux possédant un appel système 333 particulier qui écrit dans dmesg. Une fois connecté via SSH (ctf:ctf), utilisez le wrapper pour lancer le challenge.
 
 
-Auteur : [Cryptanalyse](https://twitter.com/Cryptanalyse)
+Auteur : [Cryptanalyse](https://x.com/Cryptanalyse)
 
 Origine : [Pépin](https://hackropole.fr/fr/challenges/pwn/fcsc2020-pwn-pepin/)
 
